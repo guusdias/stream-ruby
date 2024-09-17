@@ -1,0 +1,18 @@
+current directory: /home/gustavo/myself/company_courses/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/gustavo/myself/company_courses/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240916-21511-9bzlso sitelibdir\=./.gem.20240916-21511-9bzlso clean
+
+current directory: /home/gustavo/myself/company_courses/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240916-21511-9bzlso sitelibdir\=./.gem.20240916-21511-9bzlso
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/gustavo/myself/company_courses/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240916-21511-9bzlso sitelibdir\=./.gem.20240916-21511-9bzlso install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240916-21511-9bzlso/skiptrace/internal
+
+current directory: /home/gustavo/myself/company_courses/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240916-21511-9bzlso sitelibdir\=./.gem.20240916-21511-9bzlso clean

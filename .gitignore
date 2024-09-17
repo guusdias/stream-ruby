@@ -1,0 +1,60 @@
+# Logs e arquivos temporários
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Arquivos gerados por Rails
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/schema.rb
+/db/structure.sql
+/db/*.pg
+/db/*.pg-journal
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+
+# Evitar incluir as chaves secretas do Rails
+/config/master.key
+/config/credentials.yml.enc
+
+# Arquivos de inicialização do PID do servidor
+/tmp/pids/*
+/tmp/cache/*
+/tmp/sockets/*
+/tmp/storage/*
+
+# Gems instaladas
+/vendor/bundle
+
+# Arquivos relacionados ao Docker
+**/docker-compose.override.yml
+/docker-compose.override.yml
+/db-data  # Volume de dados do PostgreSQL
+
+# Ignore arquivos de compilação Ruby
+*.rbc
+*.rvmrc
+*.rbenv-version
+*.ruby-version
+*.ruby-gemset
+
+# Arquivos de cobertura de testes
+/coverage/
+/spec/reports/
+
+# Arquivos de configuração do editor
+/.idea/
+/.vscode/
+/*.swp
+
+# Arquivos de testes minitest, rspec
+/test/test_helper.rb
+/spec/spec_helper.rb
+
+# Bundler
+/.bundle
+/vendor/bundle
